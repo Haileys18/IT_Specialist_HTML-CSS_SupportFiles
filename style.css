@@ -23,3 +23,11 @@ body {
   color: #111;
   font-size: 1.2rem;
 }
+h1,
+h2,
+h3,
+.title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  color: var(--accent-color);
+}
