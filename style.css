@@ -31,3 +31,10 @@ h3,
   font-weight: 900;
   color: var(--accent-color);
 }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #880808;
+}
