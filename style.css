@@ -37,15 +37,22 @@ ul{
   padding: 0;
   overflow: hidden;
   background-color: #880808;
+
 }
 li{
   float: left;
+   border: 2px solid white;
+  
+  
 }
 li a, .dropBtn{
   display: inline-block;
   color:white;
   text-align: center;
   padding: 12px 14px;
+
+ 
+ 
 }
 li a:hover, .dropDown:hover .dropBtn{
 background-color:#D70040;
@@ -73,26 +80,38 @@ position: absolute;
   color: #DC143C;
   background-color: white;
 }
-#left{
+.left{
    position: absolute;
-  left: 1px;
+  left: 2px;
   margin: 2px;
   padding: 2px;
   border: 2px solid black;
-  width:25%;
-  height: 600px;
+  width:24.5%;
+  height: 1200px;
+  font-size: 0.8rem;
 }
-#right{
+.right{
     position: absolute;
   right: 1px;
   margin: 2px;
   padding: 2px;
-  border: 2px solid black;
-  width:75%;
-  height: 1200;
+  border: 2px solid;
+  width:74.5%;
+  height: 1200px;
 }
 span{
+
   background-color: 	#800000;
   color: white;
-  font-size: 14px;
+  font-size: 29px;
+  border: 2px solid black;
+}
+.banner{
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid white;
+  font-size: 32px;
+}
+.navi{
+  display: flex; justify-content: center; align-items: center;"
 }
