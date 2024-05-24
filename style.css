@@ -82,3 +82,12 @@ position: absolute;
   width:25%;
   height: 600px;
 }
+#right{
+    position: absolute;
+  right: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid black;
+  width:75%;
+  height: 1200;
+}
