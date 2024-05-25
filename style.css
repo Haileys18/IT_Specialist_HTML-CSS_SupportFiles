@@ -1,4 +1,4 @@
-// <uniquifier>: Use a unique and descriptive class name
+
 
 .jaro-<uniquifier> {
   font-family: "Jaro", sans-serif;
@@ -6,30 +6,16 @@
   font-weight: 400;
   font-style: normal;
 }
-
-:root {
-    --accent-color:#922B21;
-    --bg-color: #FAE5D3;
-    --sub-font: "Georgia", sans-serif;
-    --main-font: "Jersey 10", sans-serif;
-    --g-ratio: 1.618;
-  }
-
-
 body {
  font-family: "Jaro", sans-serif;
   font-weight: 300;
-  background-color: var(--bg-color);
-  color: #111;
+  background-color: black;
+  color: white;
   font-size: 1.2rem;
+ 
 }
-h1,
-h2,
-h3,
- {
-  font-family: "Jaro", sans-serif;
-  font-weight: 900;
-  color: var(--accent-color);
+h1{
+text-shadow:2px 2px #d2042d;
 }
 ul{
   list-style-type: none;
@@ -85,9 +71,9 @@ position: absolute;
   left: 2px;
   margin: 2px;
   padding: 2px;
-  border: 2px solid black;
+  border: 2px solid white;
   width:24.5%;
-  height: 1200px;
+  height: 1000px;
   font-size: 0.8rem;
 }
 .right{
@@ -96,8 +82,8 @@ position: absolute;
   margin: 2px;
   padding: 2px;
   border: 2px solid;
-  width:74.5%;
-  height: 1200px;
+  width:74%;
+  height: 1260px;
 }
 span{
 
@@ -108,10 +94,72 @@ span{
 }
 .banner{
   text-align: center;
-  text-decoration: underline;
+  text-decoration: underline #800000;
   border: 2px solid white;
   font-size: 32px;
 }
 .navi{
-  display: flex; justify-content: center; align-items: center;"
+  display: flex; justify-content: center; align-items: center;
+}
+img{
+  border: 2px dotted #800020;
+  box-shadow:0px 8px 16px 0px white;
+}
+.gloss{
+  width: 80px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border: 2px dotted #800000;
+  text-decoration: none;
+}
+.workbook{
+  width: 80px;
+  background-color:  #800000;
+  color: black;
+  border: 2px dotted  white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.gloss a{
+ 
+ 
+  color: black;
+ 
+  text-decoration: none;
+}
+.workbook a{
+  
+ 
+  color: black;
+ 
+  text-decoration: none;
+}
+.workbook a:hover{
+  background-color: white;
+  color: black;
+}
+.gloss a:hover{
+  background-color: #D70040;
+  color: black;
+}
+.hidden {
+    display: none;
+}
+#show, #hide {
+    display: block;
+  background-color:#800000 ;
+  font-family: "Jaro", sans-serif;
+  box-shadow:0px 8px 16px 0px rgb(210, 4, 45);
+  width: 50px;
+  height: 50px;
+}
+
+.button-container {
+  overflow: auto; /* Clears the float */
+}
+
+.button-float {
+  float: left;
+  margin-right: 3px; /* Optional: Adds space between buttons */
 }
