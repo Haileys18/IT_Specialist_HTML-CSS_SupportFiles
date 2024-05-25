@@ -13,11 +13,23 @@
    <style>
       /*Comments in CSS*/
    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p").hide();
+      });
+      $("#show").click(function(){
+        $("p").show();
+      });
+    });
+    </script>
+    </head>
 </head>
   <body>
 
 <div class="banner">
-   <h1>HTML-CSS IT SPECIALIST</h1>
+   <h1 ">HTML-CSS IT SPECIALIST</h1>
    <p>Use Links Below To Navigate</p>
 </div>
 <div class="navi">
@@ -132,23 +144,40 @@
        <br>
       <span>About Me</span>
       <h1>Photo of me:</h1>
-   <h1>Study Lab</h1>
-<h2>Thomas A Edison Highschool</h2>
-<h2>Design and Development</h2>
-<h3>Hailey Sooknanan</h3>
+       <img src="me.jpeg" width="343px" height="343px">
+       <h2>Hailey Sooknanan</h2>
+<h3>Design and Development</h3>
+--->Below is a link to the HTML and CSS glossary & Workbook
+       <div class="gloss"><a href="HTML_and_CSS_Glossary.pdf">Glossary</a></div>
+       <div class="workbook"><a href="HTML_and_CSS_Student_Workbook.pdf">Workbook</a></div>
 </div><!--25% left-->
-   <div class="right"><span>➳Domain Summaries</span>
-       <h1>Domain 1</h1>
+   <div class="right"><span>Domain Summaries</span>
+       <div class="button-container">
+       <button id="hide" class="button-float">Hide</button>
+       <button id="show"class="button-float" >Show</button>
+       </div>
+       <h1>➳Domain 1</h1>
+       <p class="hidden">This domain covers the basic structure and components of HTML documents, including the DOCTYPE declaration, HTML, head, and body tags. It emphasizes the importance of proper syntax and the use of symbols and comments within HTML. The goal is to enable students to create well-formed HTML documents and understand the function of metadata, scripts, and the body content that appears on a webpage. </p>
+       <hr>
+       <h1>➳Domain 2</h1>
+       <p class="hidden">Domain 2 focuses on CSS and its application in styling HTML documents. It includes constructing and analyzing style sheets, understanding rule sets, and applying classes and IDs. This domain also covers the precedence of style sheets, ensuring valid syntax, and using pseudo-classes. The aim is to provide students with the skills to style text, backgrounds, and borders, and create simple responsive layouts that conform to best practices.</p>
+       <hr>
+       <h1 >➳Domain 3</h1>
+       <p class="hidden">This domain teaches how to structure content using HTML elements. It covers semantic HTML elements, navigation elements, and form elements, ensuring that students can create well-organized and accessible webpages. It also includes the use of tables, lists, headings, paragraphs, and various tags like hr, div, and span, helping students to effectively organize data and enhance webpage navigation.</p>
+       <hr>
+       <h1>➳Domain 4</h1>
+       <p class="hidden">Domain 4 introduces the use of multimedia elements in web development. It includes adding and formatting images, using SVG and canvas elements, and incorporating video and audio formats. This domain provides the knowledge to implement simple iframes and effectively use multimedia to enhance user experience on a webpage.</p>
+       <hr>
+       <h1>➳Domain 5</h1>
+       <p class="hidden">This domain delves into advanced CSS techniques for positioning content, formatting text, and designing responsive layouts. It covers the box model, margin and padding, float positioning, and various CSS properties for text and backgrounds. The goal is to equip students with the skills to create visually appealing and responsive designs using industry-standard CSS practices.</p>
+       <hr>
+       <h1>➳Domain 6</h1>
+       <p class="hidden">The final domain emphasizes best practices in HTML and CSS, focusing on constructing well-formed markup that is accessible and evaluates the structural integrity of the code. It includes applying accessibility principles, ensuring syntax correctness, and addressing tag mismatches and cascading issues. This domain aims to produce web developers who create robust, accessible, and maintainable web content.</p>
    </div><!--75% right-->
 </div>
 
 
      
-    <script>
-       //single line comment in javavscript
-       /* Multi 
-       line 
-       comment*/
-    </script>
+   
   </body>
 </html>
